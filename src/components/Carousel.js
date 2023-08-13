@@ -4,7 +4,7 @@ export default function Carousel() {
     return (
         <div>
 
-            <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel" style={{ objectFit: "contain !important" }}>
+            <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel">
 
                 <div className="carousel-inner " id='carousel'>
                     <div class=" carousel-caption  " style={{ zIndex: "9" }}>
@@ -14,13 +14,13 @@ export default function Carousel() {
                         </form>
                     </div>
                     <div className="carousel-item active" >
-                        <img src="https://source.unsplash.com/random/900x700/?Pizza" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+                        <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900x700/?Cake" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+                        <img src="https://source.unsplash.com/random/900x700/?pastry" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://source.unsplash.com/random/900x700/?Burger" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+                        <img src="https://source.unsplash.com/random/900x700/?barbeque" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
